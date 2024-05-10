@@ -5,3 +5,59 @@
     padding: 20px;
     margin-right: 20px;
 }
+
+.widgetSmallTitle {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.widgetSmallImg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+
+.widgetSmallList {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.widgetSmallListItem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.widgetSmallUser {
+    display: flex;
+    flex-direction: column;
+}
+
+.widgetSmallUsername {
+    font-weight: 600;
+}
+
+.widgetSmallUserTitle {
+    font-size: 300;
+}
+
+.widgetSmallButton {
+    display: flex;
+    align-items: center;
+    border: none;
+    border-radius: 10px;
+    padding: 7px 10px;
+    background-color: #eeeef7;
+    color: #555;
+    cursor: pointer;
+}
+
+.widgetSmallIcon {
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+
