@@ -5,6 +5,7 @@ import Topbar from "./components/topbar/Topbar";
 import Home from "./pages/home/Home";
 import Users from "./pages/userList/Users";
 import User from "./pages/user/User";
+import NewUser from "./pages/newUser/NewUser";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/home" element={<Home/>}></Route>
           <Route path="/users" element={<Users/>}></Route>
           <Route path="/user/:userId" element={<User/>}></Route>
+          <Route path="/newUser" element={<NewUser/>}></Route>
         </Routes>
       </div>
     </Router>
