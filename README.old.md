@@ -31,6 +31,7 @@ https://fonts.google.com/
 yarn add @material-ui/icons @material-ui/core @material-ui/data-grid
 yarn add recharts
 yarn add @mui/icons-material @mui/material @emotion/styled @emotion/react
+yarn add @material-ui/data-grid
 ```
 
 
