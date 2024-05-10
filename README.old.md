@@ -1,3 +1,7 @@
+https://www.youtube.com/watch?v=aTPkos3LKi8
+https://github.com/safak/youtube/tree/react-admin
+
+
 # react-admin
 React admin sample project
 
