@@ -3,7 +3,7 @@ import "./newUser.css"
 export default function NewUser() {
   return (
     <div className='newUser'>
-        <form>
+        <form className="newUserForm">
               <div className="newUserItem">
                   <label>Username</label>
                   <input type="text" placeholder="john" />
@@ -30,13 +30,23 @@ export default function NewUser() {
               </div>
               <div className="newUserItem">
                   <label>Gender</label>
-                  <input type="radio" name="gender" id="male" value="male" />
-                  <label for="male"></label>
-                  <input type="radio" name="gender" id="female" value="female" />
-                  <label for="female"></label>
-                  <input type="radio" name="gender" id="other" value="other" />
-                  <label for="other"></label>
+                  <div className="newUserGender">
+                    <input type="radio" name="gender" id="male" value="male" />
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female" />
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="other" value="other" />
+                    <label for="other">Other</label>
+                  </div>
               </div>
+              <div className="newUserItem">
+                <label>Active</label>
+                <select name="active" id="active" className="newUserSelect">
+                    <option value="yes">Yes</option>
+                    <option value="no">No</option>
+                </select>
+              </div>
+              <button className="newUserButton">Create</button>
         </form>
     </div>
   )
